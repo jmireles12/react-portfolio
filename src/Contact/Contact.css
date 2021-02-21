@@ -1,0 +1,45 @@
+.Contact {
+    background: #1F2833;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-title {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: blue;
+}
+
+.links {
+    display: flex;
+    font-size: 10px;
+}
+
+.email, .github, .linkedin {
+    padding: 0 10px 0 10px;
+}
+
+@media all and (min-width: 400px) {
+    .Contact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact-title {
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+
+    .email, .github, .linkedin {
+        padding-top: 10px;
+    }
+}

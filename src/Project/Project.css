@@ -1,0 +1,19 @@
+.Project {
+    text-align: center;
+    background: #0B0C10;
+    color: whitesmoke;
+}
+
+.used__ul {
+    list-style: none;
+    padding: 0;
+}
+
+.title {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.title:hover {
+    color: gray;
+}

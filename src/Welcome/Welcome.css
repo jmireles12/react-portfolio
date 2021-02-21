@@ -1,0 +1,25 @@
+.Welcome {
+    text-align: center;
+    background: #0B0C10;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+@media all and (min-width: 400px) {
+    .Welcome {
+        padding: 100px;
+    }
+}

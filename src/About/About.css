@@ -1,0 +1,17 @@
+.About {
+    text-align: center;
+    background: #1F2833;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.skill__ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media all and (min-width: 400px) {
+    .About {
+        padding: 10px 100px
+    }
+}
