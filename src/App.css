@@ -3,6 +3,12 @@
   background: #0B0C10;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media all and (min-width: 400px) {
   img {
     padding-top: 10px;
@@ -10,7 +16,6 @@
   }
 
   .intro {
-    display: inline-flex;
     align-items: center;
   }
 }
