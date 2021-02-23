@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import news from '../Images/news.png'
+import noteful from '../Images/noteful.png'
+import bars from '../Images/bar_list.png'
 import './Project.css'
 
 export default class Project extends Component {
@@ -17,19 +20,22 @@ export default class Project extends Component {
                      you wanted to visit. After deciding what bars you want to visit, you can 
                      add them to a list.
                     </p>
-                    <ul className='used__ul'>Skills used:
-                        <li>React</li>
-                        <li>Node</li>
-                        <li>Redux</li>
-                        <li>PostgreSQL</li>
-                        <li>Express</li>
-                        <li>npm</li>
-                        <li>JSX</li>
-                        <li>HTML</li>
-                        <li>JavaScript</li>
-                        <li>Git</li>
-                        <li>CSS</li>
-                    </ul>
+                    <section className='project-section'>
+                        <img className='project-img' src={news} alt='news' width='100%'/>
+                        <ul className='used__ul'>Skills used:
+                            <li className='skill__li'>React</li>
+                            <li className='skill__li'>Node</li>
+                            <li className='skill__li'>Redux</li>
+                            <li className='skill__li'>PostgreSQL</li>
+                            <li className='skill__li'>Express</li>
+                            <li className='skill__li'>npm</li>
+                            <li className='skill__li'>JSX</li>
+                            <li className='skill__li'>HTML</li>
+                            <li className='skill__li'>JavaScript</li>
+                            <li className='skill__li'>Git</li>
+                            <li className='skill__li'>CSS</li>
+                        </ul>
+                    </section>
                 </section>
                 <section className='NewsFeed'>
                     <Link className='title' to={{ pathname: 'https://newsfeed-ecru.vercel.app/' }} target='_blank'><h4>NewsFeed</h4></Link>
@@ -43,19 +49,22 @@ export default class Project extends Component {
                     go back and forward from the Tabs that you created from the 
                     drop-down.
                     </p>
-                    <ul className='used__ul'>Skills used:
-                        <li>React</li>
-                        <li>Node</li>
-                        <li>Redux</li>
-                        <li>PostgreSQL</li>
-                        <li>Express</li>
-                        <li>npm</li>
-                        <li>JSX</li>
-                        <li>HTML</li>
-                        <li>JavaScript</li>
-                        <li>Git</li>
-                        <li>CSS</li>
-                    </ul>
+                    <section className='project-section'>
+                        <img className='project-img' src={bars} alt='bars list' width='100%'/>
+                        <ul className='used__ul'>Skills used:
+                            <li className='skill__li'>React</li>
+                            <li className='skill__li'>Node</li>
+                            <li className='skill__li'>Redux</li>
+                            <li className='skill__li'>PostgreSQL</li>
+                            <li className='skill__li'>Express</li>
+                            <li className='skill__li'>npm</li>
+                            <li className='skill__li'>JSX</li>
+                            <li className='skill__li'>HTML</li>
+                            <li className='skill__li'>JavaScript</li>
+                            <li className='skill__li'>Git</li>
+                            <li className='skill__li'>CSS</li>
+                        </ul>
+                    </section>
                 </section>
                 <section className='Noteful'>
                     <Link className='title' to={{ pathname: 'https://noteful-client-drab-five.vercel.app/' }} target='_blank'><h4>Noteful</h4></Link>
@@ -66,19 +75,22 @@ export default class Project extends Component {
                      notes. For the notes, users can name them and add anything they
                       want for the content of the note.
                     </p>
-                    <ul className='used__ul'>Skills used:
-                        <li>React</li>
-                        <li>Node</li>
-                        <li>Redux</li>
-                        <li>PostgreSQL</li>
-                        <li>Express</li>
-                        <li>npm</li>
-                        <li>JSX</li>
-                        <li>HTML</li>
-                        <li>JavaScript</li>
-                        <li>Git</li>
-                        <li>CSS</li>
-                    </ul>
+                    <section className='project-section'>
+                        <img className='project-img' src={noteful} alt='noteful' width='100%'/>
+                        <ul className='used__ul'>Skills used:
+                            <li className='skill__li'>React</li>
+                            <li className='skill__li'>Node</li>
+                            <li className='skill__li'>Redux</li>
+                            <li className='skill__li'>PostgreSQL</li>
+                            <li className='skill__li'>Express</li>
+                            <li className='skill__li'>npm</li>
+                            <li className='skill__li'>JSX</li>
+                            <li className='skill__li'>HTML</li>
+                            <li className='skill__li'>JavaScript</li>
+                            <li className='skill__li'>Git</li>
+                            <li className='skill__li'>CSS</li>
+                        </ul>
+                    </section>
                 </section>
             </section>
         )

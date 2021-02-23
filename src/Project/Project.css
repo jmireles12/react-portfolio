@@ -17,3 +17,27 @@
 .title:hover {
     color: gray;
 }
+
+@media only screen and (min-width: 600px) {
+    .project-section {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .project-img {
+        float: left;
+        margin: 0;
+    }
+
+    .used__ul {
+        font-weight: 100;
+        float: right;
+        align-self: center;
+        margin-right: 100px;
+    }
+
+    .skill__li {
+        padding: 10px
+    }
+}
