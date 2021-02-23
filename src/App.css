@@ -9,10 +9,10 @@ img {
   margin-right: auto;
 }
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 600px) {
   img {
     padding-top: 10px;
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .intro {
